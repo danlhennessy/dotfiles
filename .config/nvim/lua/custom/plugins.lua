@@ -14,5 +14,9 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
+  {
+  "tpope/vim-fugitive",
+  lazy = false,
+  },
 }
 return plugins
