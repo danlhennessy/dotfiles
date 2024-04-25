@@ -15,8 +15,15 @@ local plugins = {
     end,
   },
   {
-  "tpope/vim-fugitive",
-  lazy = false,
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
+  {
+    "ggandor/leap.nvim",
+    lazy = false,
+    config = function ()
+      require('leap').add_default_mappings()
+    end
   },
 }
 return plugins
