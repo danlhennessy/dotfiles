@@ -40,7 +40,7 @@ alias skim="sk --preview='bat {} --color=always' -m"
 cdf() {
     cd "$(fd -t d | sk --preview='eza -TL 2 --color=always {}')"
 }
-alias cat='bat --paging=never'
+alias cat='bat --paging=never --style=plain'
 alias ls='eza'
 alias ll='eza -l'
 alias cd='z'
