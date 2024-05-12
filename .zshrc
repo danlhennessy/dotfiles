@@ -48,4 +48,3 @@ alias du='dust -r'
 eval "$(zoxide init zsh)"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-source /Users/dan/.config/broot/launcher/bash/br
