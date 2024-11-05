@@ -2,7 +2,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 autoload -Uz compinit && compinit
 
-export PATH="$HOME/.jenv/bin:/Users/dan/bin:/Users/dan/go/bin:/usr/local/bin/apache-maven-3.6.3/bin:/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="$HOME/.jenv/bin:/Users/dan/bin:/Users/dan/go/bin:/usr/local/bin/apache-maven-3.6.3/bin:/opt/homebrew/opt/libpq/bin:/Applications/WezTerm.app/Contents/MacOS:$PATH"
 
 ### Zinit
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -51,3 +51,9 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/dan/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
