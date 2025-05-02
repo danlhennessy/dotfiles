@@ -1,0 +1,9 @@
+alt - up : yabai -m window --focus north
+alt - right : yabai -m window --focus east
+alt - down : yabai -m window --focus south
+alt - left : yabai -m window --focus west
+
+ctrl + alt - up : yabai -m window --warp north
+ctrl + alt - right : yabai -m window --warp east
+ctrl + alt - down : yabai -m window --warp south
+ctrl + alt - left : yabai -m window --warp west
